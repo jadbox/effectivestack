@@ -58,9 +58,9 @@
                     </section>
                     
                     <footer>
-                        <h3>article footer h3</h3>
+                        <h3>...</h3>
                         <p >
-                        
+                        .
                         </p>
                     </footer>
                 </article>
@@ -82,7 +82,7 @@
 
         <div class="footer-container">
             <footer class="wrapper">
-                <h3>footer</h3>
+                <h3>...</h3>
             </footer>
         </div>
 
@@ -103,7 +103,12 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$("#some-element").github({
-			user: "jadbox"
+			user: "jadbox",
+			show_extended_info: true,
+			show_follows: true,
+			width: "350px",
+			show_repos: 10,
+			oldest_first: false
 		});
 	});
 </script>
