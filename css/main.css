@@ -7,12 +7,12 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+	color: #73655D;
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+	font-size: 1em;
+	line-height: 1.8em;
 }
 
 ::-moz-selection {
@@ -74,18 +74,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+	border-bottom: 20px solid #735568;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+	border-top: 20px solid #735568;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+	background: #2E242D;
 }
 
 .title {
@@ -136,8 +136,11 @@ nav a:hover {
 }
 
 .main aside {
-    color: white;
-    padding: 0px 5% 10px;
+	color: white;
+	padding-bottom: 10px;
+	padding-left: 3%;
+	padding-right: 8%;
+	padding-top: 0px;
 }
 
 .footer-container footer {
@@ -246,8 +249,8 @@ nav a:hover {
     }
 
     .main aside {
-        float: right;
-        width: 28%;
+	float: right;
+	width: 32%;
     }
 }
 
