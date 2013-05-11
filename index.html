@@ -38,23 +38,22 @@
 <iframe src="iframe.html" width="360px"></iframe>
 </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<h3>What's New</h3><p>
+<h3>The Stream</h3><p>
 
 <a class="twitter-timeline" href="https://twitter.com/jonathanAdunlap" data-widget-id="333056531203506176">Tweets by @jonathanAdunlap</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </p>
-<h3>Designer Templates</h3>
+<h3>Projects</h3>
+<p id="some-element"></p>
 
-<p id="some-element">..</p>
-<h3>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<pre><code>"Life is a temporary celebration of something larger and eternal. 
+It is a shared path, sometimes traveled at different times than our 
+fellows, but never traveled alone. Wealth is not measured in money 
+or possessions, but in love and experience, ideas both created 
+and imagined."
+</code></pre>
         </article>
       </div>
     </div>
@@ -82,15 +81,10 @@ $ git checkout gh-pages
  <script type="text/javascript" src="src/jquery.github.min.js"></script>       
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("#some-element").github({
-			user: "jadbox",
-			show_extended_info: true,
-			show_follows: true,
-			width: "350px",
-			show_repos: 10,
-			oldest_first: false
-		});
-	});
+        $("#some-element").github({
+            user: "jadbox", width:"100%"
+        });
+    });
 </script>
 </body>
 </html>
